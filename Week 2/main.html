@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    </head>
+
+    <body>
+        <script src="script.js"></script>
+        <nav class="sidebar" id="mySidebar">
+            <div class="text">
+               Navigation
+            </div>
+            <ul>
+                <li>
+                    <a href="#" class="Dashboard-Button">
+                        <i class="fa-solid fa-house navicon"></i>Dashboard
+                        <span class="fas fa-caret-down first"></span>
+                    </a>
+                <ul class="Dashboard-show">
+                    <li><a href="#">D1</a></li>
+                    <li><a href="#">D2</a></li>
+                </ul>
+                </li>
+                <li>
+                    <a href="#" class="PageLayouts-Button">
+                        <i class="fa-solid fa-file-lines navicon"></i>Page Layouts
+                        <span class="fas fa-caret-down second"></span>
+                    </a>
+                    <ul class="PageLayouts-show">
+                        <li><a href="#">P1</a></li>
+                        <li><a href="#">P2</a></li>
+                    </ul>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-solid fa-bars navicon"></i>Navigation</a>
+                </li>
+                <li>
+                    <a href="#" class="Widget-Button"><i class="fa-solid fa-layer-group navicon"></i>Widget
+                        <span class="fas fa-caret-down third"></span>
+                    </a>
+                    <ul class="Widget-show">
+                        <li><a href="#">W1</a></li>
+                        <li><a href="#">W2</a></li>
+                    </ul>
+                </li>
+   
+                <div class="text">UI Element </div>
+                <li>
+                    <a href="#" class="BasicComponents-Button"><i class="fa-solid fa-cube navicon"></i>Basic Components
+                        <span class="fas fa-caret-down four"></span>
+                    </a>
+                    <ul class="BasicComponents-show">
+                        <li><a href="#">B1</a></li>
+                        <li><a href="#">B2</a></li>
+                    </ul>
+               </li>
+   
+               <li>
+                    <a href="#" class="AdvanceComponents-Button"><i class="fa-solid fa-shield-cat navicon"></i>Advance Components
+                    <span class="fas fa-caret-down five"></span>
+                    </a>
+                    <ul class="AdvanceComponents-show">
+                        <li><a href="#">A1</a></li>
+                        <li><a href="#">A2</a></li>
+                    </ul>
+               </li>
+   
+               <li>
+                    <a href="#" class="ExtraComponents-Button"><i class="fa-solid fa-cube navicon"></i>Extra Components
+                        <span class="fas fa-caret-down six"></span>
+                    </a>
+                    <ul class="ExtraComponents-show">
+                        <li><a href="#">E1</a></li>
+                        <li><a href="#">E2</a></li>
+                    </ul>
+               </li>
+                <li><a href="#"><i class="fa-solid fa-earth-oceania navicon"></i>Animation</a></li>
+                <li><a href="#"><i class="fa-regular fa-note-sticky navicon"></i>Sticky Notes</a></li>
+                <li>
+                    <a href="#" class="Icons-Button"><i class="fa-solid fa-fan navicon"></i>Icons
+                        <span class="fas fa-caret-down seven"></span>
+                    </a>
+                    <ul class="Icons-show">
+                        <li><a href="#">I1</a></li>
+                        <li><a href="#">I2</a></li>
+                    </ul>
+                </li>
+            </nav>
+
+
+
+
+
+         <script>
+            
+
+            $('.Dashboard-Button').click(function(){
+             $('nav ul .Dashboard-show').toggleClass("show");
+             $('nav ul .first').toggleClass("rotate");
+            });
+
+            $('.PageLayouts-Button').click(function(){
+             $('nav ul .PageLayouts-show').toggleClass("show1");
+             $('nav ul .second').toggleClass("rotate");
+           });
+
+           $('.Widget-Button').click(function(){
+             $('nav ul .Widget-show').toggleClass("show2");
+             $('nav ul .third').toggleClass("rotate");
+           });
+
+           $('.BasicComponents-Button').click(function(){
+             $('nav ul .BasicComponents-show').toggleClass("show3");
+             $('nav ul .four').toggleClass("rotate");
+           });
+
+           $('.AdvanceComponents-Button').click(function(){
+             $('nav ul .AdvanceComponents-show').toggleClass("show4");
+             $('nav ul .five').toggleClass("rotate");
+           });
+
+           $('.ExtraComponents-Button').click(function(){
+             $('nav ul .ExtraComponents-show').toggleClass("show5");
+             $('nav ul .six').toggleClass("rotate");
+           });
+
+           $('.Icons-Button').click(function(){
+             $('nav ul .Icons-show').toggleClass("show6");
+             $('nav ul .seven').toggleClass("rotate");
+           });
+
+         </script>
+          
+        
+            
+
+
+        <div class="header">
+            <section class="section1">
+
+                <div class="wrapper1ForSection1">
+                    <div class="menubar1">
+                        <ul>
+                            <li><a href="" style="font-size: x-large;"><pre>Company      </pre> </a></li>
+                            <li id="search">
+                                <button type="button" onclick="toggleNav()">
+                                    <i class="fa-solid fa-bars"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menubar2">
+                        <ul>
+                            <li id="search"><a href=""><i class="fa fa-search"></i></a></li>
+                            <li id="scan"><a href=""><i class="fa fa-qrcode"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="wrapper2ForSection1">
+                    <ul class="list">
+                        <li class="notification"><a href=""><i class="fa fa-bell"></i><span class="badge">3</span></a></li>
+                        <li class="notification"><a href=""><i class="fa-regular fa-message"><span class="badge">5</span></i></a></li>
+                        <li><a href=""><i class="fa-regular fa-user"></i></a></li>
+                        <li><a href="" style="font-size: X-large;">Profile</a></li>
+                    </ul>
+                    
+                </div>
+            </section>
+        </div>
+
+
+
+        <div id="main">
+            <section class="section2">
+
+                <div class="wrapper1ForSection2">
+                    <div class="div1ForSection2">
+                        <div class="subdiv1Fordiv1">
+                            
+                            <label for="Amount" id="Amount">$400</label>
+                            <br>
+                            <p>All Earnings</p>
+    
+                        </div>
+    
+                        <div class="subdiv2Fordiv1">
+                            <i class="fa-solid fa-chart-simple"></i>
+                        </div>
+    
+                    </div> 
+                    
+                    <div class="div2ForSection2" id="div2ForSection2Amount">
+                        <div class="subdiv1Fordiv2">
+                            <p>%change</p>
+                        </div>
+    
+                        <div class="subdiv2Fordiv2">
+                            <i class="fa-solid fa-arrow-up-right-dots"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="wrapper2ForSection2">
+                    <div class="div1ForSection2">
+    
+                        <div class="subdiv1Fordiv1">
+                            
+                            <label for="PageViews" id="PageViews">290+</label>
+                            <br>
+                            <p>Page Views</p>
+    
+                        </div>
+    
+                        <div class="subdiv2Fordiv1">
+                            <i class="fa-regular fa-file"></i>
+                        </div>
+    
+                    </div> 
+                    <div class="div2ForSection2" id="div2ForSection2PageViews">
+                        <div class="subdiv1Fordiv2">
+                            <p>%change</p>
+                        </div>
+                        <div class="subdiv2Fordiv2">
+                            <i class="fa-solid fa-arrow-up-right-dots"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="wrapper3ForSection2">
+                    <div class="div1ForSection2">
+                        <div class="subdiv1Fordiv1">
+                            <label for="TaskCompleted" id="TaskCompleted">120</label>
+                            <br>
+                            <p>Task Completed</p>
+                        </div>
+                        <div class="subdiv2Fordiv1">
+                            <i class="fa-regular fa-calendar"></i>
+                        </div>
+                    </div> 
+                    
+                    <div class="div2ForSection2" id="div2ForSection2TaskCompleted">
+                        <div class="subdiv1Fordiv2">
+                            <p>%change</p>
+                        </div>
+    
+                        <div class="subdiv2Fordiv2">
+                            <i class="fa-solid fa-arrow-up-right-dots"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper4ForSection2">
+                    <div class="div1ForSection2">
+                        <div class="subdiv1Fordiv1">
+                            <label for="Downloads" id="Downloads">520</label>
+                            <br>
+                            <p>Task Completed</p>
+                        </div>
+                        <div class="subdiv2Fordiv1">
+                            <i class="fa-solid fa-download"></i>
+                        </div>
+                    </div> 
+                    <div class="div2ForSection2" id="div2ForSection2Downloads">
+                        <div class="subdiv1Fordiv2">
+                            <p>%change</p>
+                        </div>
+                        <div class="subdiv2Fordiv2">
+                            <i class="fa-solid fa-arrow-up-right-dots"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="section3">
+                <div class="wrapper1ForSection3">
+                    <div class="div1ForSection3">
+                        <p>Visitors</p> 
+                        <p class="graytext">For more details, please refer the chart</p>
+                    </div>
+                    <div class="div2ForSection3">
+                        <img src="graph1.webp" alt="Graph1">
+                    </div>
+                </div>
+                <div class="wrapper2ForSection3">
+                    <div class="div1ForSection3Right">
+                        <img src="graph2.webp" alt="Graph2">
+                    </div>
+                    <div class="div2ForSection3Right">
+                        <label class="graytext">Total completed project and learning</label>
+                    </div>
+                    <div class="div3ForSection3Right">
+                        <div class="div3ForSection3RightSubdiv1">
+                            <p class="graytext">Completed Projects</p>
+                            <p style="font-size:xx-large;">175</p>
+                        </div>
+                        <div class="div3ForSection3RightSubdiv2">
+                            <p class="graytext">Total Earnings</p>
+                            <p style="font-size:xx-large;">400M</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="section4">
+                <div class="wrapper1ForSection4">
+                    <div class="div1ForSection4">
+                        <br>
+                        <label class="graytext">This quater</label>
+                        <br>
+                        <br>
+                        <label style="font-size: xx-large;">$3455.9M</label>
+                        <br>
+                        <label class="graytext">$3455.9M</label>
+                    </div>
+                    <div class="div2ForSection4">
+                        <label style="font-size: large; font-weight: bold;">87</label>
+                        <br>
+                        <label class="graytext">online resume</label>
+                        <br>
+                        <progress value="50" max="100"></progress>
+                    </div>
+                    <div class="div3ForSection4">
+                        <label style="font-size: large; font-weight: bold;">87</label>
+                        <br>
+                        <label class="graytext">offline resume</label>
+                        <br>
+                        <progress value="50" max="100"></progress>
+                    </div>
+                </div>
+                <div class="wrapper2ForSection4">
+                    <div class="div1ForSection4-up">
+                        <label style="font-size: x-large;">Social Networks</label>
+                    </div>
+                    <div class="div2ForSection4-down">
+                        <div class="subdiv1ForSocial">
+                            <div class="youtube">
+                                <i class="fa-brands fa-youtube"></i>
+                            </div>
+                            <div class="facebook">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </div>
+                        </div>
+                        <div class="subdiv2ForSocial">
+                            <div class="socialDetail1">
+                                <pre>Views :<span class="bolder">                1,343</span></pre>
+                                <pre>Comments:    <span class="bolder">     2,345</span> </pre>
+                                <pre>Likes :   <span class="bolder">              4,128</span>    </pre>
+                                <pre>Subscribe : <span class="bolder">        3,432</span>  </pre>
+                            </div>
+                            <div class="socialDetail2">
+                                <pre>Engagement : <span class="bolder">      5,533</span>      </pre>
+                                <pre>Shares:    <span class="bolder">             2,345</span>     </pre>
+                                <pre>Likes :    <span class="bolder">               4,128</span>        </pre>
+                                <pre>Comments :  <span class="bolder">        3,432</span>       </pre>
+                            </div>
+                        </div>
+                        <div class="subdiv3ForSocial">
+                            <div class="twitter"><i class="fa-brands fa-square-twitter"></i></div>
+                            <div class="google"><i class="fa-brands fa-google-plus"></i></div>
+                        </div>
+                        <div class="subdiv4ForSocial">
+                            <div class="socialDetail3">
+                                <pre>Tweets : <span class="bolder">            5,533</span></pre>
+                            </div>
+                            <div class="socialDetail4">
+                                <pre>Tweets :   <span class="bolder">             8,343</span>        </pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        
+            <div id="divForAnimation" class="animation">
+                <a href="#" id="animation" class="rotatingIcon">
+                    <i class="fa-solid fa-gear"></i>
+                </a>
+            </div>
+        </div>
+
+    </body>
+</html>
