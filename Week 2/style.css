@@ -1,0 +1,1256 @@
+#main {
+  transition: margin-left .5s;
+  padding-top: 50px;
+}
+
+
+.header {
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  background-color: white;
+}
+
+.left-menubar-left {
+            background-color: black;
+            width: 250px;
+            display: flex;
+            align-items: center;
+
+        }
+
+.left-menubar-right{
+  display: flex;
+  align-items: center;
+
+}
+
+
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color: #f3f3f3;
+}
+
+section{
+  display: flex;
+}
+
+.headerbar{
+  display: flex;
+  height: 3.125rem;
+  
+}
+
+.top-summary-section{
+  height: 12rem;
+  
+  
+}
+
+.mid-summary-section{
+  height: 25rem;
+  
+}
+
+.bottom-summary-section{
+  height: 25rem;
+  
+  
+}
+
+.wrapperForEarning{
+  width: 25%;
+  padding:1rem;
+  height: 11rem;
+  margin: 1rem 0;
+  box-sizing: border-box;
+  margin-bottom: 0%;
+}
+
+.wrapperForPageViews{
+  width: 25%;
+  padding:1rem;
+  height: 11rem;
+  margin: 1rem 0;
+  box-sizing: border-box;
+  margin-bottom: 0%;
+}
+
+.wrapperForTaskCompleted{
+  width: 25%;
+  padding:1rem;
+  height: 11rem;
+  margin: 1rem 0;
+  box-sizing: border-box;
+  margin-bottom: 0%;
+}
+
+.wrapperForDownloads{
+  width: 25%;
+  padding:1rem;
+  height: 11rem;
+  margin: 1rem 0;
+  box-sizing: border-box;
+  margin-bottom: 0%;
+}
+
+
+.leftWrapperForMidSummarySection{
+  width: 70%;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  margin:1rem;
+  background-color: white;
+}
+
+.rightWrapperForMidSummarySection{
+  width: 30%;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  margin:1rem;
+  background-color: white;
+}
+
+.leftWrapperForBottomSummarySection{
+  width: 30%;
+  border-radius: 0.25rem;
+  margin:1rem;
+  background-color: white;
+}
+
+.rightWrapperForBottomSummarySection{
+  width: 70%;
+  border-radius: 0.25rem;
+  margin: 1rem;;
+  background-color: white;
+}
+
+
+.topdivForSummaryCard{
+  height:60%;
+  margin-bottom: 0%;
+  display: flex;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  background-color: white;
+}
+
+.bottomdivForSummaryCard{
+  height:30%;
+  margin-top: 0%;
+  display: flex;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.topLeftdivForText{
+  width: 80%;
+  padding: 6% 6%;
+}
+
+.topRightdivForIcon{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomLeftdivForText{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  
+}
+
+.bottomRightdivForIcon{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.bottomRightdivForIcon i{
+  font-size: large;
+}
+
+.topLeftdivForText label{
+  font-size: xx-large;
+}
+
+i{
+  font-size: x-large;
+}
+
+.bottomLeftdivForText p{
+  padding-left: 6%;
+}
+
+
+.bottomLeftdivForText{
+  color: white;
+}
+
+
+label#Amount{
+  color: #fe9365;
+}
+
+label#PageViews{
+  color: #0ac282;
+}
+
+label#TaskCompleted{
+  color: #fe5d70;
+}
+
+label#Downloads{
+  color: #01a9ac;
+}
+
+
+#bottomdivForAmount{
+  background-image: linear-gradient(to right, #fe9365, #feb798);
+}
+
+#bottomdivForPageViews{
+  background-image: linear-gradient(to right, #0ac282, #0df3a3);
+}
+
+#div2ForSection2TaskCompleted{
+  background-image: linear-gradient(to right, #fe5d70, #fe909d);
+}
+
+#div2ForSection2Downloads{
+  background-image: linear-gradient(to right, #01a9ac, #01dbdf);
+}
+ 
+.companyName{
+  padding-right:45px;
+}
+
+.topLeftWrapperForMidSummarySection{
+  padding: 2.5%;
+  height:15%;
+  background-color: white;
+}
+
+.bottomLeftWrapperForMidSummarySection{
+  padding: 2.5%;
+  height:85%;
+  display: flex; 
+  padding-bottom: 30px;
+}
+
+.bottomLeftWrapperForMidSummarySection img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.topRightWrapperForMidSummarySection{
+  margin: 3%;
+  margin-left: 0.5rem;
+  margin-right:0.5rem;
+  height:60%;
+  display: flex;
+  margin-bottom: 0%;
+}
+
+.topRightWrapperForMidSummarySection img {
+  width: 100%;
+  height: 100%;
+}
+
+.middleRightWrapperForMidSummarySection{
+  height:10%;
+  display: flex;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.bottomRightWrapperForMidSummarySection{
+  height:30%;
+  display: flex;
+  margin-left: 2.5%;
+  
+}
+
+.right-menubar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.left-menubar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.headerbar li{
+  margin: 0 15px;
+}
+
+.headerbar a {
+  color: black;
+  text-decoration: none;
+}
+
+.notification {
+  position: relative;
+}
+
+.badge {
+  background-color: red;
+  color: #fff;
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+
+.middleRightWrapperForMidSummarySection label{
+  color: #000;
+  padding: 6px;
+}
+
+.bottomRightWrapperForMidSummarySection{
+  display: flex;
+  padding: 10px 0px;
+  padding-bottom: 30px;
+
+  
+}
+
+.bottomRightWrapperForMidSummarySectionForProjects{
+  width: 40%;
+  border-right: 2px solid black;  
+  justify-content: center;
+  padding-left:5%;
+}
+
+.bottomRightWrapperForMidSummarySectionForEarning{
+  width: 30%; 
+  justify-content: center;
+  padding-left:5%;
+}
+
+.topLeftWrapperForBottomSummarySection{
+  height: 40%;
+  padding-left: 5%;
+  justify-content: center;
+}
+
+.middleLeftWrapperForBottomSummarySection{
+  height: 30%;
+  padding-left: 5%;
+}
+
+.bottomLeftWrapperForBottomSummarySection{
+  height: 30%;
+  padding-left: 5%;
+}
+
+
+.rightWrapperForBottomSummarySection{
+  
+  padding: 1%;
+}
+
+progress{
+  width: 95%;
+}
+
+
+.topRightWrapperForBottomSummarySection{
+  height: 20%;
+  padding-left: 2%;
+  align-items: center;
+  display: flex;
+}
+
+.bottomRightWrapperForBottomSummarySection{
+  height: 70%;
+  padding-top: 0%;
+}
+
+
+.topdivForSocial{
+  height:15%;
+  display: flex;
+}
+
+.divForYoutubeFacebookDetail{
+  height:60%;
+  display: flex;
+  padding-top: 20px;
+}
+
+.bottomdivForSocialIcon{
+  height:15%;
+  display: flex;
+  
+}
+
+.divForTwitterGoogleDetail{
+  height:5%;
+  display: flex;
+  padding-top: 20px;
+  
+}
+
+.youtube{
+  width: 50%;
+  padding: 10px;
+  color: red;
+}
+
+.facebook{
+  width: 50%;
+  padding: 10px;
+  color: blue;
+}
+
+.twitter{
+  width: 50%;
+  padding: 10px;
+  color: blue;
+}
+
+.google{
+  width: 50%;
+  padding: 10px;
+  color: red;
+}
+
+.youtubeMeasurement{
+  width: 25%;
+  padding-left: 10px;
+}
+
+.youtubeMeasurementDetail{
+  width: 25%;
+  padding-left: 10px;
+}
+
+.facebookMeasurement{
+  width: 25%;
+  padding-left: 10px;
+}
+
+.facebookMeasurementDetail{
+  width: 25%;
+  padding-left: 10px;
+}
+
+
+
+.twitterMeasurement{
+  width: 25%;
+  padding-left: 10px;
+}
+
+.twitterMeasurementDetail{
+  width: 25%;
+  padding-left: 10px;
+}
+
+.googleMeasurement{
+  width: 25%;
+  padding-left: 10px;
+}
+
+.googleMeasurementDetail{
+  width: 25%;
+  padding-left: 10px;
+}
+
+.detailGrayText{
+  color: gray;
+}
+
+.bolder{
+  color: #000;
+}
+
+.graytext{
+  color:gray;
+}
+
+.headerbar{
+  display:flex;
+
+}
+
+.left-menubar{
+  display: flex;
+  width: 50%;
+  
+ 
+}
+
+.right-menubar{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+#divForAnimation a {
+  position: fixed; 
+  right: -80px; 
+  transition: 0.3s; 
+  padding: 15px; 
+  padding-top: 15px;
+  width: 150px;
+  height: 60px; 
+  text-decoration: none; 
+  font-size: 20px; 
+  color: white;
+  border-radius:  50px 0 0 50px;
+
+}
+
+#divForAnimation a:hover {
+  right: 0; 
+  
+}
+
+
+#animation {
+  top: 45%;
+  background-color: #01a9ac;
+  
+  
+}
+
+#divForAnimation {
+  display: flex; 
+  
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.rotatingIcon i {
+  
+  animation: rotate360 2s linear infinite; 
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.btn.click span:before{
+  content: '\f00d';
+}
+.sidebar{
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  left: -250px;
+  background: #1b1b1b;
+  transition: left 0.4s ease;
+}
+
+
+
+
+
+
+
+
+.sidebar.show{
+  left: 0px;
+  top: 50px;
+}
+.sidebar .text{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 57px;
+  text-align: center;
+  background: #1e1e1e;
+  letter-spacing: 1px;
+}
+nav ul{
+  background: #1b1b1b;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+}
+nav ul li{
+  line-height: 50px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+nav ul li:last-child{
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+nav ul li a{
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding-left: 5px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  border-left: 3px solid transparent;
+}
+
+nav ul li a:hover{
+  background: #1e1e1e;
+  border-left-color: cyan;
+  color: cyan;
+}
+
+nav ul ul{
+  position: static;
+  display: none;
+}
+nav ul .Dashboard-show.show{
+  display: block;
+}
+nav ul .PageLayouts-show.show1{
+  display: block;
+}
+
+nav ul .Widget-show.show2{
+  display: block;
+}
+
+nav ul .BasicComponents-show.show3{
+  display: block;
+}
+
+nav ul .AdvanceComponents-show.show4{
+  display: block;
+}
+
+nav ul .ExtraComponents-show.show5{
+  display: block;
+}
+
+nav ul .Icons-show.show6{
+  display: block;
+}
+
+
+nav ul ul li{
+  line-height: 42px;
+  border-top: none;
+}
+nav ul ul li a{
+  font-size: 17px;
+  color: #e6e6e6;
+  padding-left: 80px;
+}
+nav ul li.active ul li a{
+  color: #e6e6e6;
+  background: #1b1b1b;
+  border-left-color: transparent;
+}
+nav ul ul li a:hover{
+  color: cyan!important;
+  background: #1e1e1e!important;
+}
+nav ul li a span{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 22px;
+  transition: transform 0.4s;
+}
+nav ul li a span.rotate{
+  transform: translateY(-50%) rotate(-180deg);
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #202020;
+  z-index: -1;
+  text-align: center;
+}
+.content .header{
+  font-size: 45px;
+  font-weight: 600;
+}
+.content p{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.navicon{
+  font-size: large;
+  padding: 10px;
+}
+
+.sidebar ul ul {
+  display: none;
+}
+
+.sidebar ul li.active ul {
+  display: block;
+}
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.toggle-switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for responsive pagination */
+
+@media only screen and (max-width: 768px) {
+
+
+
+  .header {
+    position: fixed;
+}
+
+  .left-menubar,
+  .right-menubar, 
+  .wrapper3ForSection1, 
+  .wrapper4ForSection1{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .left-menubar-right, .right-menubar {
+      display: none;
+  }
+
+  .left-menubar-left{
+    width:100%
+  }
+
+  #divForAnimation{
+    display: none;
+  }
+
+
+  nav ul {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+  }
+
+  nav ul li {
+      line-height: 40px;
+      border: none;
+  }
+
+  nav ul li a {
+      padding: 5px 20px;
+  }
+
+  nav ul li a span {
+      display: none;
+  }
+
+  .content {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+      color: #202020;
+      z-index: 0;
+      text-align: center;
+  }
+
+  .content .header {
+      font-size: 30px;
+      font-weight: 600;
+  }
+
+  .content p {
+      font-size: 20px;
+      font-weight: 500;
+  }
+
+#main{
+  display: block;
+}
+
+.top-summary-section{
+  display: block;
+  width: 100%;
+  height: fit-content;
+}
+
+.mid-summary-section{
+  display: block;
+  width: 100%;
+  height: fit-content;
+  padding: 1rem;
+}
+
+.bottom-summary-section{
+  display: block;
+  width: 100%;
+  height: fit-content;
+}
+
+.wrapperForEarning{
+  width: 100%;
+}
+
+.wrapperForPageViews{
+  width: 100%;
+}
+
+.wrapperForTaskCompleted{
+  width: 100%;
+}
+
+.wrapperForDownloads{
+  width: 100%;
+}
+
+.leftWrapperForMidSummarySection{
+  width: 100%; 
+}
+
+.rightWrapperForMidSummarySection{
+  width: 100%;
+  
+}
+
+.bottomRightWrapperForMidSummarySectionForProjects{
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  text-align: center;
+  width: 50%;
+}
+
+.bottomRightWrapperForMidSummarySectionForEarning{
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  text-align: center;
+  width: 50%;
+}
+
+.leftWrapperForBottomSummarySection{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.rightWrapperForBottomSummarySection{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+progress{
+  width: 90%;
+}
+
+.bottomdivForSummaryCard{
+  height:3.125rem;
+}
+
+.leftWrapperForBottomSummarySection{
+  margin: 0;
+  
+}
+
+.rightWrapperForBottomSummarySection{
+  margin: 0%;
+}
+
+.rightWrapperForMidSummarySection{
+  margin: 0%;
+}
+
+.bottom-summary-section{
+  padding: 1rem;
+}
+
+.rightWrapperForBottomSummarySection{
+  margin-top: 1rem;
+}
+
+
+.divForYoutubeFacebookDetail{
+  height:60%;
+  display: flex;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.topRightWrapperForMidSummarySection img {
+  margin-top: 0.5rem;
+}
+
+
+.divForTwitterGoogleDetail{
+  height:5%;
+  display: flex;
+  padding-top: 10px;
+  
+}
+
+.leftWrapperForMidSummarySection{
+  margin: 0rem;
+}
+
+#main{
+  padding-top: 30px;
+}
+
+
+.sidebar.show{
+  left: 0px;
+  top: 48px;
+}
+
+nav ul li a {
+  padding-left: 3px;
+}
+
+}
