@@ -122,7 +122,7 @@ form.appendChild(br12);
 labelFornoAccount=document.createElement('label');
 labelFornoAccount.setAttribute('for','noAccount');
 labelFornoAccount.setAttribute('id','noAccount');
-labelFornoAccount.textContent='Don\'t have an account';
+labelFornoAccount.textContent='Don\'t have an account?';
 form.appendChild(labelFornoAccount);
 
 a_Signup=document.createElement('a');
