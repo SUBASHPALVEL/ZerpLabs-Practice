@@ -1,0 +1,265 @@
+@media (max-width: 768px) {
+  .header {
+    position: fixed;
+  }
+
+  .left-menubar,
+  .right-menubar,
+  .wrapper3ForSection1,
+  .wrapper4ForSection1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left-menubar-right,
+  .right-menubar {
+    display: none;
+  }
+
+  .left-menubar-left {
+    width: 100%;
+  }
+
+  #divForAnimation {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  nav ul li {
+    line-height: 40px;
+    border: none;
+  }
+
+  nav ul li a {
+    padding: 5px 20px;
+  }
+
+  nav ul li a span {
+    display: none;
+  }
+
+  .content {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    color: #202020;
+    z-index: 0;
+    text-align: center;
+  }
+
+  .content .header {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .content p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  #main {
+    display: block;
+  }
+
+  .top-summary-section {
+    display: block;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .mid-summary-section {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    padding: 1rem;
+  }
+
+  .bottom-summary-section {
+    display: block;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .wrapperForEarningAndPageViews {
+    display: block;
+    width: 100%;
+    height: fit-content;
+  }
+  .wrapperForTaskCompletedAndDownloads {
+    display: block;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .wrapperForEarning {
+    width: 100%;
+  }
+
+  .wrapperForPageViews {
+    width: 100%;
+  }
+
+  .wrapperForTaskCompleted {
+    width: 100%;
+  }
+
+  .wrapperForDownloads {
+    width: 100%;
+  }
+
+  .leftWrapperForMidSummarySection {
+    width: 100%;
+  }
+
+  .rightWrapperForMidSummarySection {
+    width: 100%;
+  }
+
+  .bottomRightWrapperForMidSummarySectionForProjects {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    text-align: center;
+    width: 50%;
+  }
+
+  .bottomRightWrapperForMidSummarySectionForEarning {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    text-align: center;
+    width: 50%;
+  }
+
+  .leftWrapperForBottomSummarySection {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .rightWrapperForBottomSummarySection {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  progress {
+    width: 90%;
+  }
+
+  .bottomdivForSummaryCard {
+    height: 3.125rem;
+  }
+
+  .leftWrapperForBottomSummarySection {
+    margin: 0;
+  }
+
+  .rightWrapperForBottomSummarySection {
+    margin: 0%;
+  }
+
+  .rightWrapperForMidSummarySection {
+    margin: 0%;
+  }
+
+  .bottom-summary-section {
+    padding: 1rem;
+  }
+
+  .rightWrapperForBottomSummarySection {
+    margin-top: 1rem;
+  }
+
+  .divForYoutubeFacebookDetail {
+    height: 60%;
+    display: flex;
+    padding-bottom: 15px;
+    padding-top: 10px;
+  }
+
+  .topRightWrapperForMidSummarySection img {
+    margin-top: 0.5rem;
+  }
+
+  .divForTwitterGoogleDetail {
+    height: 5%;
+    display: flex;
+    padding-top: 10px;
+  }
+
+  .leftWrapperForMidSummarySection {
+    margin: 0rem;
+  }
+
+  #main {
+    padding-top: 30px;
+  }
+
+  .sidebar.show {
+    left: 0px;
+    top: 48px;
+  }
+
+  nav ul li a {
+    padding-left: 3px;
+  }
+
+  .profileDropdown {
+    display: none;
+  }
+  #ellipsis {
+    display: block; /* Show the element on responsive screens */
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    color: white;
+  }
+
+  .right-menubar-expanded {
+    display: flex;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    justify-content: flex-end;
+    padding: 1rem;
+  }
+
+  .shadowed-bottom-border-expanded {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
+  }
+
+  #subdivForProfileDropdown-expanded {
+    top: 130%; /* for moving green vertically */
+    background-color: white;
+  }
+
+  /* dropdown buttons */
+  .profileDropdown-expanded {
+    display: block;
+    position: fixed;
+    top: 10.9%; /* for moving button vertically */
+    left: 94%; /* for moving button horizontally */
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 1.8rem;
+    line-height: 2.5rem;
+    padding: 0.3rem 1.5625rem;
+  }
+
+  .profileDropdown-ul-expanded {
+    position: absolute;
+    background: #1b1b1b;
+    list-style: none;
+    left: -8.5rem; /* for moving button hori */
+    width: 100%;
+    border-radius: 5px;
+    display: none;
+  }
+}
