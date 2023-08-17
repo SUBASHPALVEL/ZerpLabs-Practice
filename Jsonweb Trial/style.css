@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    padding: 2rem;
+    background-color: #f6f7fb;
+}
+
+.navbar-Light{
+    background-color: transparent;
+    margin-bottom: 3rem;
+}
+
+.default-Navbar{
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-Colors{
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-Brand-Colors{
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    object-fit: cover;
+    width: 100%;  
+  }
+
+span{
+    color: #e83e8c;
+    background-color: #eee;
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+
+}
+
+p {
+    line-height: 2rem;
+    font-family: open sans,sans-serif;
+  }
+
+#default-Navbar-Title,
+.custom-Colors-Title,
+.custom-Brand-Colors-Title{
+    margin-bottom: 0.8rem;
+}
+
+#default-Navbar-Header-Theme{
+    margin-bottom: 0.625rem;
+  }
+
+#default-Navbar-Logo-Theme{
+    margin-bottom: 0.625rem;
+}
+
+
+.header-Theme-Subitle-Font{
+    margin-bottom: 0.625rem;
+}
+
+hr{
+    margin-bottom: 0.625rem;
+    color: #919aa3;
+    opacity: 0.2;
+}
+
+.custom-Colors img{
+    margin-bottom: 0.625rem;
+}
+
+.custom-Brand-Colors img{
+    margin-bottom: 0.625rem;
+}
+
+#navbar-Light-Title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 0.625rem;
+}
+
+#navbar-Light-Subtitle-Left {
+    float: left;
+    color:#919aa3;
+    font-size: 0.8125rem;
+}
+
+#navbar-Light-Subtitle-Right {
+    float: right;
+    color:#919aa3;
+    font-size: 0.8125rem;
+}
+
+.header-Theme-Subitle-Font{
+    font-size: 0.875rem;
+}
+
+.header-Theme-Title-Font{
+    font-size: 0.875rem;
+}

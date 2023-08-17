@@ -1,0 +1,556 @@
+{
+  "elements": [
+    {
+      "type": "div", 
+      "class": "navbar-Light",
+      "children": [
+        {
+          "type": "p",
+          "id": "navbar-Light-Title",
+          "textContent": "Navbar-Light"
+        },
+        {
+          "type": "p", 
+          "id": "navbar-Light-Subtitle-Left",
+          "textContent": "Light Varients Of Navbar"
+        },
+        {
+          "type": "p",
+          "id": "navbar-Light-Subtitle-Right", 
+          "textContent": "/ Navbar-Light"
+        }
+      ]
+    },
+    {
+      "type": "div",
+      "class": "default-Navbar",
+      "children": [
+        {
+          "type": "p",
+          "id": "default-Navbar-Title",
+          "textContent": "Default Navbar"
+        },
+        {
+          "type": "p",
+          "id": "default-Navbar-Header-Theme",
+          "children": [
+            {
+              "type": "text",
+              "textContent": "Add " 
+            },
+            {
+              "type": "span",
+              "textContent": "header-theme=\"theme1\""
+            },
+            {
+              "type": "text",
+              "textContent": " attribute in "
+            },
+            {
+              "type": "span",
+              "textContent": ".navbar-header"
+            },
+            {
+              "type": "text",
+              "textContent": " class or"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "id": "default-Navbar-Logo-Theme",
+          "children": [
+            {
+              "type": "text",
+              "textContent": "Add "
+            },
+            {
+              "type": "span",
+              "textContent": "logo-theme=\"theme1\""
+            },
+            {
+              "type": "text",
+              "textContent": " attribute in " 
+            },
+            {
+              "type": "span",
+              "textContent": ".navbar-logo"
+            },
+            {
+              "type": "text",
+              "textContent": " class"
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "src": "defaultNavbar.jpg",
+          "alt": "default-Navbar"
+        }
+      ]
+    },
+    {
+      "type": "div",
+      "class": "custom-Colors",
+      "children": [
+        {
+          "type": "div",
+          "class": "custom-Colors-Title",
+          "children": [
+            {
+              "type": "p",
+              "id": "custom-Colors-Title-Font",
+              "textContent": "Custom Colors"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Title-Font",
+          "textContent": "HEADER-THEME=\"THEME 1\""
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Subitle-Font",
+          "children": [
+            {
+              "type": "text",
+              "textContent": "Add "
+            },
+            {
+              "type": "span",
+              "textContent": "header-theme=\"theme1\""
+            },
+            {
+              "type": "text",
+              "textContent": " attribute in "
+            },
+            {
+              "type": "span",
+              "textContent": ".pcoded-header"
+            },
+            {
+              "type": "text",
+              "textContent": " class"
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "src": "halfNavy.jpg",
+          "alt": "Theme 1 Navbar"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Title-Font",
+          "textContent": "HEADER-THEME=\"THEME 2\""
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Subitle-Font",
+          "children": [
+            {
+              "type": "text",
+              "textContent": "Add "
+            },
+            {
+              "type": "span",
+              "textContent": "header-theme=\"theme2\""
+            },
+            {
+              "type": "text",
+              "textContent": " attribute in "
+            },
+            {
+              "type": "span",
+              "textContent": ".pcoded-header"
+            },
+            {
+              "type": "text",
+              "textContent": " class"
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "src": "fullPink.jpg",
+          "alt": "Theme 2 Navbar"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Title-Font",
+          "textContent": "HEADER-THEME=\"THEME 3\""
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Subitle-Font",
+          "children": [
+            {
+              "type": "text",
+              "textContent": "Add "
+            },
+            {
+              "type": "span",
+              "textContent": "header-theme=\"theme3\""
+            },
+            {
+              "type": "text",
+              "textContent": " attribute in "
+            },
+            {
+              "type": "span",
+              "textContent": ".pcoded-header"
+            },
+            {
+              "type": "text",
+              "textContent": " class"
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "src": "fullSkyBlue.jpg",
+          "alt": "Theme 3 Navbar"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Title-Font",
+          "textContent": "HEADER-THEME=\"THEME 4\""
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Subitle-Font",
+          "children": [
+            {
+              "type": "text",
+              "textContent": "Add "
+            },
+            {
+              "type": "span",
+              "textContent": "header-theme=\"theme4\""
+            },
+            {
+              "type": "text",
+              "textContent": " attribute in "
+            },
+            {
+              "type": "span",
+              "textContent": ".pcoded-header"
+            },
+            {
+              "type": "text",
+              "textContent": " class"
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "src": "fullGreen.jpg",
+          "alt": "Theme 4 Navbar"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Title-Font",
+          "textContent": "HEADER-THEME=\"THEME 5\""
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Subitle-Font",
+          "children": [
+            {
+              "type": "text",
+              "textContent": "Add "
+            },
+            {
+              "type": "span",
+              "textContent": "header-theme=\"theme5\""
+            },
+            {
+              "type": "text",
+              "textContent": " attribute in "
+            },
+            {
+              "type": "span",
+              "textContent": ".pcoded-header"
+            },
+            {
+              "type": "text",
+              "textContent": " class"
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "src": "fullBlue.jpg",
+          "alt": "Theme 5 Navbar"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Title-Font",
+          "textContent": "HEADER-THEME=\"THEME 6\""
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Subitle-Font",
+          "children": [
+            {
+              "type": "text",
+              "textContent": "Add "
+            },
+            {
+              "type": "span",
+              "textContent": "header-theme=\"theme6\""
+            },
+            {
+              "type": "text",
+              "textContent": " attribute in "
+            },
+            {
+              "type": "span",
+              "textContent": ".pcoded-header"
+            },
+            {
+              "type": "text",
+              "textContent": " class"
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "src": "fullNavy.jpg",
+          "alt": "Theme 6 Navbar"
+        }
+      ]
+    },
+    {
+      "type": "div",
+      "class": "custom-Brand-Colors",
+      "children": [
+        {
+          "type": "div",
+          "class": "custom-Brand-Colors-Title",
+          "children": [
+            {
+              "type": "p",
+              "id": "custom-Brand-Colors-Title-Font",
+              "textContent": "Custom Brand Colors"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Title-Font",
+          "textContent": "LOGO-THEME=\"THEME 1\""
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Subitle-Font",
+          "children": [
+            {
+              "type": "text",
+              "textContent": "Add "
+            },
+            {
+              "type": "span",
+              "textContent": "logo-theme=\"theme1\""
+            },
+            {
+              "type": "text",
+              "textContent": " attribute in "
+            },
+            {
+              "type": "span",
+              "textContent": ".navbar-logo"
+            },
+            {
+              "type": "text",
+              "textContent": " class"
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "src": "halfNavy.jpg",
+          "alt": "Theme 1 Navbar"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Title-Font",
+          "textContent": "LOGO-THEME=\"THEME 2\""
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Subitle-Font",
+          "children": [
+            {
+              "type": "text",
+              "textContent": "Add "
+            },
+            {
+              "type": "span",
+              "textContent": "logo-theme=\"theme2\""
+            },
+            {
+              "type": "text",
+              "textContent": " attribute in "
+            },
+            {
+              "type": "span",
+              "textContent": ".navbar-logo"
+            },
+            {
+              "type": "text",
+              "textContent": " class"
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "src": "halfPink.jpg",
+          "alt": "Theme 2 Navbar"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Title-Font",
+          "textContent": "LOGO-THEME=\"THEME 3\""
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Subitle-Font",
+          "children": [
+            {
+              "type": "text",
+              "textContent": "Add "
+            },
+            {
+              "type": "span",
+              "textContent": "logo-theme=\"theme3\""
+            },
+            {
+              "type": "text",
+              "textContent": " attribute in "
+            },
+            {
+              "type": "span",
+              "textContent": ".navbar-logo"
+            },
+            {
+              "type": "text",
+              "textContent": " class"
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "src": "halfSkyBlue.jpg",
+          "alt": "Theme 3 Navbar"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Title-Font",
+          "textContent": "LOGO-THEME=\"THEME 4\""
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Subitle-Font",
+          "children": [
+            {
+              "type": "text",
+              "textContent": "Add "
+            },
+            {
+              "type": "span",
+              "textContent": "logo-theme=\"theme4\""
+            },
+            {
+              "type": "text",
+              "textContent": " attribute in "
+            },
+            {
+              "type": "span",
+              "textContent": ".navbar-logo"
+            },
+            {
+              "type": "text",
+              "textContent": " class"
+            }  
+          ]
+        },
+        {
+          "type": "img",
+          "src": "halfGreen.jpg",
+          "alt": "Theme 4 Navbar"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Title-Font",
+          "textContent": "LOGO-THEME=\"THEME 5\""
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "p",
+          "class": "header-Theme-Subitle-Font",
+          "children": [
+            {
+              "type": "text",
+              "textContent": "Add "
+            },
+            {
+              "type": "span",
+              "textContent": "logo-theme=\"theme5\""
+            },
+            {
+              "type": "text",
+              "textContent": " attribute in "
+            },
+            {
+              "type": "span",
+              "textContent": ".navbar-logo"
+            },
+            {
+              "type": "text",
+              "textContent": " class"
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "src": "halfBlue.jpg",
+          "alt": "Theme 5 Navbar"
+        }
+      ]
+    }
+  ]
+}
